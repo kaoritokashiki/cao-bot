@@ -1,0 +1,8 @@
+{
+  "name": "cao-bot",
+  "version": "0.0.0",
+  "description": "a helpful Slack bot",
+  "main": "index.js",
+  "author": "cao",
+  "license": "MIT"
+}
