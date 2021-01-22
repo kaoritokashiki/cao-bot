@@ -2,7 +2,16 @@
   "name": "cao-bot",
   "version": "0.0.0",
   "description": "a helpful Slack bot",
-  "main": "index.js",
+  "main": "src",
   "author": "cao",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1 ",
+    "start": "node ."
+  },
+  "dependencies": {
+    "@slack/rtm-api": "^6.0.0",
+    "@slack/web-api": "^6.0.0",
+    "esm": "^3.2.25"
+  }
 }
